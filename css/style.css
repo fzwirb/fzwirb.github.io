@@ -237,6 +237,11 @@ nav a:hover {
 }
 .bg-modal-container {
     background-color: #FF7F50; 
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     margin: auto;
     padding: 20px;
     width: 80%;
